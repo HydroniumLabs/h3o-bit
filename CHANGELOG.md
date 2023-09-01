@@ -16,6 +16,8 @@ Possible sections are:
 
 ## [0.1.0] - 2023-09-01
 
+## [0.1.0] - 2023-09-01
+
 ### Added
 
 - add routines for resolution
