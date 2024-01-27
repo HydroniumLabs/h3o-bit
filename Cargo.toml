@@ -1,6 +1,6 @@
 [package]
 name = "h3o-bit"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Sylvain Laperche <sylvain.laperche@gmail.com>"]
 edition = "2021"
 description = "Low-level library for H3 indexes' bit twiddling."
@@ -10,7 +10,7 @@ homepage = "https://docs.rs/h3o-bit"
 repository = "https://github.com/HydroniumLabs/h3o-bit"
 license = "BSD-3-Clause"
 keywords = ["geography", "geospatial", "gis", "h3", "spatial-index"]
-categories = ["science::geo"]
+categories = ["science::geo", "no-std::no-alloc"]
 
 [package.metadata.docs.rs]
 all-features = true

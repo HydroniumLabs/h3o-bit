@@ -1,3 +1,4 @@
+#![no_std]
 //! The `h3o-bit` library provides bit twiddling routines for H3 indexes.
 //!
 //! This is a low-level library that assumes that you know what you're doing
