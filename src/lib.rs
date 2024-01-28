@@ -124,6 +124,8 @@
 
 // }}}
 
+use core::debug_assert;
+
 /// Default cell index (resolution 0, base cell 0).
 pub const DEFAULT_CELL_INDEX: u64 = 0x8001fffffffffff;
 
