@@ -120,6 +120,7 @@
     clippy::module_name_repetitions,
     // Usually yes, but not really applicable for most literals in this crate.
     clippy::unreadable_literal,
+    reason = "allow some exceptions"
 )]
 
 // }}}
@@ -187,7 +188,7 @@ pub const fn set_base_cell(bits: u64, cell: u8) -> u64 {
 // ------------------------------------------------------------------------------
 
 /// Returns the H3 index direction bits at the given resolution.
-#[allow(clippy::cast_possible_truncation)] // Cast safe thx to masking.
+#[allow(clippy::cast_possible_truncation, reason = "Cast safe thx to masking.")]
 #[must_use]
 #[inline]
 pub const fn get_direction(bits: u64, resolution: u8) -> u8 {
