@@ -1,8 +1,8 @@
 [package]
 name = "h3o-bit"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Sylvain Laperche <sylvain.laperche@gmail.com>"]
-edition = "2021"
+edition = "2024"
 description = "Low-level library for H3 indexes' bit twiddling."
 documentation = "https://docs.rs/h3o-bit/"
 readme = "README.md"
